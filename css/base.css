@@ -1,0 +1,382 @@
+﻿/*
+-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  17 dec 2013
+----------------------------------------------- */
+*{margin:0;padding:0}
+body{
+	color:#131313;
+	background:#fff;	
+	}
+
+@font-face {
+    font-family: 'asapbold';
+    src: url('../fonts/asap-bold-webfont.eot');
+    src: url('../fonts/asap-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-bold-webfont.woff') format('woff'),
+         url('../fonts/asap-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+    font-family: 'asapbold_italic';
+    src: url('../fonts/asap-bolditalic-webfont.eot');
+    src: url('../fonts/asap-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/asap-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'asapitalic';
+    src: url('../fonts/asap-italic-webfont.eot');
+    src: url('../fonts/asap-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-italic-webfont.woff') format('woff'),
+         url('../fonts/asap-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'asapregular';
+    src: url('../fonts/asap-regular-webfont.eot');
+    src: url('../fonts/asap-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-regular-webfont.woff') format('woff'),
+         url('../fonts/asap-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font{
+	font-family: 'asapbold';
+	font-family: 'asapbold_italic';
+	font-family: 'asapitalic';
+	font-family: 'asapregular';
+	font-family: 'montserratbold';
+	font-family: 'montserratregular';
+}
+.site{	
+	margin: auto;
+	font: 13px 'pf_agora_slab_promedium';
+	background-color: #282828;
+	overflow: hidden;	
+}
+	.site_in{
+		margin: auto;
+		width: 1180px;	
+	}
+		.header{
+			width: 100%;
+			height: 90px;
+			background: #3b414e;
+			border-bottom: 1px solid #60656f;
+		}
+			.logo{
+				float: left;
+				width: 224px;
+				height: 41px;
+				margin: 27px 0 0 108px;
+				background: url(../img/logo.png) no-repeat 0% 0%;
+			}
+			.header ul{
+				float: right;
+				margin: 40px 120px 0 0;
+				font-size: 14px;
+			}
+			.header li{
+				float: left;
+				list-style: none;
+			}
+			.header li a{
+				color: #fff;
+				margin: 0 0 0 40px;
+				text-decoration: none;
+			}
+			.header li.activ a{
+				color: #4f9fc5;
+			}
+		.main{
+			overflow: hidden;
+			width: 100%;
+			background: #fff;
+		}
+			.left{
+				float: left;
+				width: 340px;
+				background: #f0f0ef;			
+			}
+				.collapse{
+					margin: 34px 0 25px 220px;
+					font-size: 14px;
+					color: #665;
+				}
+				.sign{
+					margin: 0 0 18px 40px;
+					font-size: 24px;
+					color: #3b414e;
+				}
+				.get{
+					margin: 0 0 25px 40px;
+					font-size: 14px;
+					color: #3b414e;
+				}
+				.input{
+					margin: 0 0 20px 40px;
+					padding: 0 0 0 10px;
+					width: 240px;
+					height: 31px;
+					font-size: 12px;
+					color: #b4b5b9;
+					border: 1px solid #d8d8d8;
+				}
+				.left__sumbit{
+				margin: 0 0 43px 130px;
+				width: 162px;
+				height: 43px;
+				background: #ce998b;	
+				border-radius: 4px;		
+				}
+					.left__sumbit input{
+						margin-left: 1px;
+						width: 160px;
+						height: 42px;
+						border-top: 1px solid #d65237;
+						border-left: 1px solid #b3452a;
+						border-bottom: 1px solid #b3452a;
+						border-right: 1px solid #b3452a;
+						border-radius: 2px;
+						background: #d65237;
+						font: 18px 'montserratbold';
+						color:  #f0f0ef;
+						text-shadow: -1px 4px 1px #b34630;
+					}
+				.left__ln{
+					margin: 0 0 38px 40px;
+					width: 252px;
+					height: 1px;
+					background: #4f9fc0;
+				}
+				.left__h{
+					margin: 0 0 20px 40px;
+					color:  #3b414e;
+					font: 24px 'montserratbold';
+				}
+				.left ul{
+					margin: 0 0 0 40px;
+					font: 14px 'asapregular';
+					color: #4f9fc5;
+				}
+					.left li{
+						margin-bottom: 15px;
+						list-style: none;
+					}
+			.right{
+				float: right;
+				width: 764px;
+				margin-right: 40px;				
+			}
+				.right__foto{
+					margin: 75px 0 25px 0;					
+					background: url(../img/clothing.jpg);
+					width: 764px;
+					height: 401px;
+				}
+				.right__b{
+					width: 100%;					
+					overflow: hidden;
+				}
+					.b__drop{
+						float: left;
+						width: 225px;
+						border-bottom: 2px solid #58a4c8;						
+					}
+						.b__drop p{
+							color: #4f9fc5;
+							font: 24px 'montserratbold';
+							margin-bottom: 10px; 
+						}
+						.drop__data{
+							color: #3b414e;
+							font: 14px 'asapregular';
+							margin-bottom: 17px;
+						}
+						.drop__ban{
+							margin-bottom: 22px;
+							width: 195px;
+							height: 33px;
+							background: url(../img/like.png);
+						}
+					.b__should{
+						float: right;
+						width: 440px;
+						margin-right: 60px;
+					}
+					.b__should, .b__should p{
+						color: #3b414e;
+						font: 14px 'asapregular';
+					}
+						.b__should p{
+							margin: 5px 0 25px;
+						}
+				.right__text{
+					margin: 20px 60px 0 0;
+					color: #3b414e;
+					font: 14px 'asapregular';					
+				}
+					.right__text h1{
+						font: 14px 'asapbold';
+					}
+				.right__ln{
+					width: 100%;
+					height: 2px;
+					background: #58a4c8;
+					margin: 53px 0 43px;
+				}
+				.article{
+					width: 100%;
+					overflow: hidden;
+					margin-bottom: 70px;
+				}
+					.article__pr, .article__n{
+						float: left;
+						width: 240px;
+						font: 14px 'asapregular';	
+						color: #4f9fc5;
+						text-align: center;
+					}
+					.article__n{
+						float: right;
+					}
+						.article__grey{
+							float: left;
+							background: #f0f0ef;
+							width: 100%;
+							height: 190px;							
+							margin-top: 10px;
+							text-align: left;
+						}
+							.article__t{
+								float: left;
+								font: 18px 'montserratbold';
+								color: #3b414e;
+								margin: 45px 42px 0 25px;
+							}
+							.article__data{
+								float: left;
+								margin: 10px 0 0 25px;
+								font: 14px 'asapregular';	
+								color: #3b414e;
+							}
+				.comment{
+					width: 776px;
+					height: 202px;
+					background: url(../img/avatar.png);
+				}
+		.footer{
+			position: relative;
+			background: #4f9fc5;
+			width: 100%;
+			height: 380px;
+		}
+			.footer__left{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 240px;							
+			}
+				.footer ul{
+					width: 100%;
+					margin: 45px 0 40px;
+					font: 14px 'asapregular';
+					color: #f0f0ef;
+					text-align: center;
+				}
+					.footer li{
+						margin-bottom: 10px;
+						list-style: none;
+					}
+				.footer__social{
+					margin-left: 40px;					
+				}
+					.social__ic{
+						float: left;
+						height: 36px;
+						margin-right: 30px;
+					}
+			.footer__right{
+				position: absolute;
+				top: 0;
+				left: 240px;
+				width: 940px;
+				height: 380px;
+				background: #323a44;
+			}
+				.right__blog{
+					position: absolute;
+					top: 54px;
+					left: 100px;
+					width: 360px;
+				}
+					.footer__right h1{
+						font: 24px 'montserratbold';
+						color: #e94a3e;
+						margin-bottom: 35px;
+					}
+					.right__blog p{
+						font: 14px 'asapregular';
+						color: #f0f0ef;
+						margin-top: 30px; 
+					}
+					.right__data{
+						font: 14px 'asapregular';
+						color: #3d899e;
+					}
+				.right__tweets{
+					position: absolute;
+					top: 54px;
+					left: 480px;
+					width: 340px;
+				}
+					.tweets__sq{
+						float: left;
+						width: 70px;
+						height: 65px;
+						background: #fff;
+						margin-right: 10px;
+					}
+					.tweets__b p{
+						font: 14px 'asapregular';
+						color: #f0f0ef;
+						margin-top: 30px; 
+						overflow: hidden;
+					}
+						.tweets__mail{
+							color: #6db63a;
+						}
+				.right__cr{
+					position: absolute;
+					bottom: 10px;
+					left: 112px;					
+					font: 12px 'montserratregular';
+					color: #596677;
+				}
+
+
