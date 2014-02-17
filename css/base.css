@@ -2,12 +2,11 @@
 -----------------------------------------------
 Site Base Styles
 Author:   art 
-Version:  17 dec 2013
+Version:  10 feb 2014
 ----------------------------------------------- */
 *{margin:0;padding:0}
 body{
-	color:#131313;
-	background:#fff;	
+	font: 14px 'asapregular';
 	}
 
 @font-face {
@@ -65,7 +64,7 @@ body{
     font-style: normal;
 }
 
-.font{
+font{
 	font-family: 'asapbold';
 	font-family: 'asapbold_italic';
 	font-family: 'asapitalic';
@@ -75,7 +74,6 @@ body{
 }
 .site{	
 	margin: auto;
-	font: 13px 'pf_agora_slab_promedium';
 	background-color: #282828;
 	overflow: hidden;	
 }
@@ -147,14 +145,14 @@ body{
 					color: #b4b5b9;
 					border: 1px solid #d8d8d8;
 				}
-				.left__sumbit{
+				.left__submit{
 				margin: 0 0 43px 130px;
 				width: 162px;
 				height: 43px;
 				background: #ce998b;	
 				border-radius: 4px;		
 				}
-					.left__sumbit input{
+					.left__submit input{
 						margin-left: 1px;
 						width: 160px;
 						height: 42px;
@@ -180,25 +178,138 @@ body{
 					font: 24px 'montserratbold';
 				}
 				.left ul{
-					margin: 0 0 0 40px;
-					font: 14px 'asapregular';
-					color: #4f9fc5;
+					margin: 0 0 0 40px;					
+					list-style: none;
 				}
 					.left li{
-						margin-bottom: 15px;
-						list-style: none;
+						margin-bottom: 15px;	
+					}
+					.left li a{											
+						text-decoration: none;
+						font: 14px 'asapregular';
+						color: #4f9fc5;
 					}
 			.right{
 				float: right;
 				width: 764px;
 				margin-right: 40px;				
 			}
-				.right__foto{
-					margin: 75px 0 25px 0;					
+				.right__keep{
+					text-align: center;
+					font: 24px 'montserratbold';
+					color: #3b414e;
+					margin: 75px 0 20px;
+				}
+				.right__bacon{
+					text-align: center;
+					font: 16px 'asapregular';
+					color: #3b414e;
+				}
+				.right__foto, .right__fotos{
+					position: relative;
+					margin: 75px 0 20px 0;					
 					background: url(../img/clothing.jpg);
 					width: 764px;
 					height: 401px;
 				}
+					.foto__read a{
+						float: right;
+						margin-top: 160px;
+						width: 140px;
+						height: 30px;
+						font: 16px 'asapregular';
+						color: #3b414e;
+						background: #4f9fc5;
+						padding: 10px 0 0 10px;
+						text-decoration: none;
+					}
+					.foto__grey{
+						float: right;
+						width: 100%;
+						height: 201px;
+						background: #3b414e;
+					}
+						.fotos__lightgrey{						
+							background: #f0f0ef;
+						}
+						.grey__drop{
+							float: left;
+							margin: 50px 15px 0 50px;
+							width: 230px;
+							height: 115px;
+							font: 24px 'montserratbold';
+							color: #f0f0ef;
+							text-align: right;
+						}
+							.lightgrey__drop{
+								color: #3b414e;
+								text-align: left;
+								width: 250px;
+							}
+							.drop__medium{
+								margin: 50px 0 0 40px;
+							}
+							.drop__small{
+								font: 18px 'montserratbold';
+								margin: 50px 0 0 25px;
+								width: 180px;
+							}
+						.grey__data{
+							font: 14px 'asapregular';
+							color: #4f9fc5;
+							margin-top: 8px;
+						}
+							.lightgrey__data{
+								color: #3b414e;
+							}
+						.grey__text{
+							float: left;
+							width: 425px;
+							height: 115px;
+							margin-top: 55px;
+							font: 14px 'asapregular';
+							color: #f0f0ef;
+						}
+				.right__fotos{					
+					margin: 0 0 20px 0;					
+					background: #fff;					
+				}
+					.fotos__big{						
+						width: 444px;
+						height: 401px;
+						background: #ddd;
+					}
+					.fotos__medium{						
+						width: 301px;
+						height: 401px;
+						background: #eee;
+					}
+					.fotos__small{						
+						width: 239px;
+						height: 401px;
+						background: #aaa;
+					}
+					.right__fotos li{
+						float: left;
+						margin-left: 24px;
+						list-style: none;
+					}
+					.right__fotos li:first-child{
+						float: left;
+						list-style: none;						
+						margin: 0;
+					}
+					.right__fotos li:last-child{
+						float: right;
+						list-style: none;						
+						margin: 0;
+					}
+
+
+
+
+
+
 				.right__b{
 					width: 100%;					
 					overflow: hidden;
