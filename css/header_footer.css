@@ -1,0 +1,210 @@
+﻿/*
+-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  10 feb 2014
+----------------------------------------------- */
+*{margin:0;padding:0}
+body{
+	font: 14px 'asapregular';
+	}
+
+@font-face {
+    font-family: 'asapbold';
+    src: url('../fonts/asap-bold-webfont.eot');
+    src: url('../fonts/asap-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-bold-webfont.woff') format('woff'),
+         url('../fonts/asap-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}	
+@font-face {
+    font-family: 'asapbold_italic';
+    src: url('../fonts/asap-bolditalic-webfont.eot');
+    src: url('../fonts/asap-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/asap-bolditalic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'asapitalic';
+    src: url('../fonts/asap-italic-webfont.eot');
+    src: url('../fonts/asap-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-italic-webfont.woff') format('woff'),
+         url('../fonts/asap-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'asapregular';
+    src: url('../fonts/asap-regular-webfont.eot');
+    src: url('../fonts/asap-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/asap-regular-webfont.woff') format('woff'),
+         url('../fonts/asap-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+font{
+	font-family: 'asapbold';
+	font-family: 'asapbold_italic';
+	font-family: 'asapitalic';
+	font-family: 'asapregular';
+	font-family: 'montserratbold';
+	font-family: 'montserratregular';
+}
+.l-site{	
+	margin: auto;
+	background-color: #282828;
+	overflow: hidden;	
+}	
+	/*-----Header-------*/
+		.l-header{
+			width: 100%;
+			height: 90px;
+			background: #3b414e;			
+		}
+			.l-header__in{
+				margin: auto;				
+				width: 1180px;	
+				border-bottom: 1px solid #60656f;
+			}
+				.logo{
+					float: left;
+					width: 224px;
+					height: 41px;
+					margin: 27px 0 0 108px;
+					background: url(../img/logo.png) no-repeat 0% 0%;
+				}
+				.l-header ul{
+					float: right;
+					margin: 40px 120px 0 0;
+					font-size: 14px;
+				}
+				.l-header li{
+					float: left;
+					list-style: none;
+				}
+				.l-header li a{
+					color: #fff;
+					margin: 0 0 0 40px;
+					text-decoration: none;
+				}
+				.l-header li.is-activ a{
+					color: #4f9fc5;
+				}
+	/*-----Footer-------*/	
+		.l-footer{
+			margin: auto;				
+			width: 1180px;	
+			position: relative;
+			background: #4f9fc5;
+			height: 380px;
+		}
+			.l-footer__left{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 240px;							
+			}
+				.l-footer ul{
+					width: 100%;
+					margin: 45px 0 40px;					
+					text-align: center;
+					list-style: none;
+				}
+					.l-footer li{
+						margin-bottom: 10px;						
+					}
+					.l-footer li a{
+						text-decoration: none;
+						font: 14px 'asapregular';
+						color: #f0f0ef;
+					}
+				.footer__social{
+					margin-left: 40px;					
+				}
+					.social__ic{
+						float: left;
+						height: 36px;
+						margin-right: 30px;
+					}
+			.l-footer__right{
+				position: absolute;
+				top: 0;
+				left: 240px;
+				width: 940px;
+				height: 380px;
+				background: #323a44;
+			}
+				.right__blog{
+					position: absolute;
+					top: 54px;
+					left: 100px;
+					width: 360px;
+				}
+					.l-footer__right h1{
+						font: 24px 'montserratbold';
+						color: #e94a3e;
+						margin-bottom: 35px;
+					}
+					.right__blog p{
+						font: 14px 'asapregular';
+						color: #f0f0ef;
+						margin-top: 30px; 
+					}
+					.right__data a{
+						font: 14px 'asapregular';
+						color: #3d899e;
+						text-decoration: none;
+					}
+				.right__tweets{
+					position: absolute;
+					top: 54px;
+					left: 480px;
+					width: 340px;
+				}
+					.tweets__sq{
+						float: left;
+						width: 70px;
+						height: 65px;
+						background: #fff;
+						margin-right: 10px;
+					}
+					.tweets__b p{
+						font: 14px 'asapregular';
+						color: #f0f0ef;
+						margin-top: 30px; 
+						overflow: hidden;
+					}
+						.tweets__mail{
+							color: #6db63a;
+						}
+				.right__cr{
+					position: absolute;
+					bottom: 10px;
+					left: 112px;					
+					font: 12px 'montserratregular';
+					color: #596677;
+				}
+
+

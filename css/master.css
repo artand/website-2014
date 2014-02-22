@@ -6,6 +6,18 @@ Version:  1 sep 2009
 ----------------------------------------------- */
 
 /* Imported Styles
------------------------------------------------ */
-@import url("base.css");
+----------------------------------------------- 
+@import url("base.css");*/
 @import url("layout.css");
+@import url("header_footer.css");
+@import url("blog_article.css");
+@import url("blog_rev2.css");
+@import url("contact_Rev1.css");
+@import url("faq.css");
+@import url("features_Rev1.css");
+@import url("guidesAndTutorials_Article.css");
+@import url("guidesAndTutorials_Rev3.css");
+@import url("guidesAndTutorials_Support.css");
+@import url("home_Rev3.css");
+
+

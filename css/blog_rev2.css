@@ -1,0 +1,124 @@
+﻿/*-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  10 feb 2014
+----------------------------------------------- */
+
+		
+			
+				.right__keep{
+					text-align: center;
+					font: 24px 'montserratbold';
+					color: #3b414e;
+					margin: 75px 0 20px;
+				}
+				.right__bacon{
+					text-align: center;
+					font: 16px 'asapregular';
+					color: #3b414e;
+				}
+				.right__fotos{
+					position: relative;
+					margin: 0 0 20px 0;					
+					width: 764px;
+					height: 401px;									
+					background: #fff;	
+				}
+					.foto__read a{
+						position: absolute;
+						top: 160px;
+						right: 0;
+						width: 140px;
+						height: 30px;
+						font: 16px 'asapregular';
+						color: #3b414e;
+						background: #4f9fc5;
+						padding: 10px 0 0 10px;
+						text-decoration: none;
+					}
+					.foto__grey{
+						position: absolute;
+						left: 0;
+						bottom: 0;
+						width: 100%;
+						height: 201px;
+						background: #3b414e;
+					}
+						.fotos__lightgrey{						
+							background: #f0f0ef;
+						}
+						.grey__drop{
+							float: left;
+							margin: 50px 15px 0 50px;
+							width: 230px;
+							height: 115px;
+							font: 24px 'montserratbold';
+							color: #f0f0ef;
+							text-align: right;
+						}
+							.lightgrey__drop{
+								color: #3b414e;
+								text-align: left;
+								width: 250px;
+							}
+							.drop__medium{
+								margin: 50px 0 0 40px;
+							}
+							.drop__small{
+								font: 18px 'montserratbold';
+								margin: 50px 0 0 25px;
+								width: 180px;
+							}
+						.grey__data{
+							font: 14px 'asapregular';
+							color: #4f9fc5;
+							margin-top: 8px;
+						}
+							.lightgrey__data{
+								color: #3b414e;
+							}
+						.grey__text{
+							float: left;
+							width: 425px;
+							height: 115px;
+							margin-top: 55px;
+							font: 14px 'asapregular';
+							color: #f0f0ef;
+						}
+					.fotos__big{
+						position: relative;						
+						width: 444px;
+						height: 401px;						
+					}
+					.fotos__medium{	
+						position: relative;					
+						width: 301px;
+						height: 401px;						
+					}
+					.fotos__small{	
+						position: relative;					
+						width: 239px;
+						height: 401px;						
+					}
+					.right__fotos li{
+						float: left;
+						margin-left: 24px;
+						list-style: none;
+					}
+					.right__fotos li:first-child{
+						float: left;
+						list-style: none;						
+						margin: 0;
+					}
+					.right__fotos li:last-child{
+						float: right;
+						list-style: none;						
+						margin: 0;
+					}
+
+
+
+
+
+
+				

@@ -114,12 +114,11 @@ font{
 		.main{
 			overflow: hidden;
 			width: 100%;
-			background: #fff;
+			background: #fff url(../img/bg_grey.png) 0 0 repeat-y;
 		}
 			.left{
 				float: left;
-				width: 340px;
-				background: #f0f0ef;			
+				width: 340px;							
 			}
 				.collapse{
 					margin: 34px 0 25px 220px;
