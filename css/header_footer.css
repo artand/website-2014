@@ -114,28 +114,34 @@ font{
 				}
 	/*-----Footer-------*/	
 		.l-footer{
-			margin: auto;				
-			width: 1180px;	
+			width: 100%;	
 			position: relative;
-			background: #4f9fc5;
+			background: #323a44;
 			height: 380px;
 		}
+			.l-footer__in{
+				margin: auto;				
+				width: 1180px;	
+				position: relative;				
+			}
 			.l-footer__left{
 				position: absolute;
 				left: 0;
 				top: 0;
-				width: 240px;							
+				width: 240px;
+				height: 380px;
+				background: #4f9fc5;							
 			}
-				.l-footer ul{
+				.footer__sidebar{
 					width: 100%;
 					margin: 45px 0 40px;					
 					text-align: center;
 					list-style: none;
 				}
-					.l-footer li{
+					.footer__sidebar li{
 						margin-bottom: 10px;						
 					}
-					.l-footer li a{
+					.footer__sidebar li a{
 						text-decoration: none;
 						font: 14px 'asapregular';
 						color: #f0f0ef;
@@ -154,7 +160,6 @@ font{
 				left: 240px;
 				width: 940px;
 				height: 380px;
-				background: #323a44;
 			}
 				.right__blog{
 					position: absolute;

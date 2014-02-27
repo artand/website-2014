@@ -7,7 +7,11 @@ Version:  10 feb 2014
 			overflow: hidden;
 			margin: auto;				
 			width: 1180px;	
-			background: #fff url(../img/bg_grey.png) 0 0 repeat-y;
+			background: #fff;
+		}
+		.l-main__in{
+			overflow: hidden;
+			background:url(../img/bg_grey.png) 0 0 repeat-y;
 		}
 			.l-left{
 				float: left;
@@ -29,7 +33,7 @@ Version:  10 feb 2014
 					font-size: 14px;
 					color: #3b414e;
 				}
-				.input{
+				.sign__input{
 					margin: 0 0 20px 40px;
 					padding: 0 0 0 10px;
 					width: 240px;
@@ -64,7 +68,7 @@ Version:  10 feb 2014
 					color:  #3b414e;
 					font: 24px 'montserratbold';
 				}
-				.sidebar ul{
+				.sidebar{
 					margin: 0 0 0 40px;					
 					list-style: none;
 				}

@@ -1,0 +1,133 @@
+/*-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  10 feb 2014
+----------------------------------------------- */
+.map{
+	position: relative;
+	margin: 0;
+}
+	.send{
+		position: absolute;
+		top: 110px;
+		left: 100px;
+		width: 360px;
+		height: 415px;
+		background: #4f9fc5;		
+	}
+		.send__text{
+			font: 22px 'montserratbold';
+			color:  #fff;
+			margin: 30px 0 20px 40px
+		}
+			.send__text p{
+				font: 22px 'montserratregular';				
+			}
+		.send__input,.send__input__mess{
+			margin: 0 0 20px 40px;
+			padding: 0 0 0 10px;
+			width: 265px;
+			height: 31px;
+			font: 12px 'asapregular';
+			color: #b4b5b9;
+			border: 1px solid #d8d8d8;
+		}
+		.send__input__mess{
+			height: 80px;
+			padding: 10px 0 0 10px;			
+		}
+		.send__grey{
+			color: #3b414e;
+			height: 82px;
+			border-top: 1px solid #426378;
+			margin-top: 14px;
+			background: #3b414e;
+		}
+			.send__submit{
+				margin: auto;
+				margin-top: 20px;
+				width: 222px;
+				height: 43px;
+				background: #844840;	
+				border-radius: 4px;		
+				}
+				.send__submit input{
+					margin-left: 1px;
+					width: 220px;
+					height: 42px;
+					border-top: 1px solid #d65237;
+					border-left: 1px solid #b3452a;
+					border-bottom: 1px solid #b3452a;
+					border-right: 1px solid #b3452a;
+					border-radius: 2px;
+					background: #d65237;
+					font: 18px 'montserratbold';
+					color:  #f0f0ef;
+					text-shadow: -1px 4px 1px #b34630;
+				}		
+		}
+	.address{
+		position: absolute;
+		top: 255px;
+		left: 753px;
+	}
+	.whodoit{
+		background: #f0f0ef;
+		color: #3b414e;
+		text-align: center;
+		padding: 0 120px 0 100px;
+		overflow: hidden;
+	}
+		.whodoit h1{
+			font: 24px 'montserratbold';
+			margin-top: 42px;			
+		}
+		.whodoit p{
+			font: 16px 'asapregular';
+			margin-top: 25px;			
+		}
+	.whodoit__ln{
+		height: 60px;
+	}
+	.whodoit__foto{
+		position: relative;
+		margin-bottom: 75px;
+		overflow: hidden;
+	}
+		.whodoit__foto li{
+			float: left;
+			margin-left: 120px;
+			list-style: none;
+		}
+		.whodoit__foto li:first-child{
+			float: left;
+			list-style: none;						
+			margin: 0;
+		}
+		.whodoit__foto li:last-child{
+			float: right;
+			list-style: none;						
+			margin: 0;
+		}
+			.staff{
+				position: relative;
+				width: 240px;
+				text-align: left;
+			}
+				.staff__social{
+					position: absolute;
+					top: 0;
+					right: 15px;
+				}
+				.staff__name{
+					font: 24px 'montserratbold';
+					margin-top: 20px;
+				}
+				.staff__post{
+					font: 24px 'asapitalic';
+					margin-top: 5px;
+				}
+				.staff__desc{
+					font: 14px 'asapregular';
+					margin-top: 10px;
+				}
