@@ -1,0 +1,97 @@
+/*-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  6 march 2014
+----------------------------------------------- */
+	.l-header-red{
+		width: 100%;
+		height: 29px;
+		background: #cb4f36;	
+		border-bottom: 5px solid #a9402c;		
+	}
+		.l-header-red__in{
+			position: relative;
+			margin: auto;				
+			width: 1180px;	
+			overflow: hidden;				
+		}
+			.l-header-red__in h1{
+				font: 18px 'montserratbold';
+				color: #fff;
+				text-align: center;
+				margin-top: 5px;
+			}
+			.x{
+				position: absolute;
+				right: 105px;
+				top: 13px;
+				width: 10px;
+				height: 12px;
+				background: url(../img/x.png) no-repeat 0% 0%;
+			}
+	.any{
+		font: 24px 'montserratbold';
+		color: #3b414e;
+		text-align: center;
+		margin: 60px 0 50px;
+	}
+	.questions{
+		margin-left: 105px;
+		width: 980px;
+		overflow: hidden;
+	}
+		.questions__left{
+			float: left;
+			width: 480px;	
+		}
+		.questions__right{
+			float: right;
+			width: 480px;				
+		}
+			.question{
+				margin: 0 0 40px;
+			}
+				.quest{
+					font: 16px 'montserratbold';
+					color: #4f9fc5;			
+					margin: 0 0 20px;
+				}
+				.answer{
+					font: 14px 'asapregular';
+					color: #3b414e;		
+				}
+				.answer__bold{
+					font: 14px 'asapbold';
+					color: #3b414e;		
+				}
+	.cell{
+		width: 984px;
+		height: 84px;
+		margin: 65px 0 95px 110px;
+		background: url(../img/cell.png) repeat;
+	}
+		.cell-left{
+			float: left;
+			width: 440px;
+			font: 24px 'montserratbold';
+			color: #3b414e;
+			margin: 15px 0 0 20px;
+		}
+			.cell__red{
+				font: 24px 'montserratbold';
+				color: #d75339;
+			}
+		.cell-right{
+			float: right;
+			width: 450px;
+			font: 14px 'asapregular';
+			color: #3b414e;		
+			margin: 15px 40px 0 0;
+		}
+			.cell__bold{
+				font: 14px 'asapbold';
+				color: #3b414e;	
+			}
+
+
+	
