@@ -1,0 +1,238 @@
+/*-----------------------------------------------
+Site Base Styles
+Author:   art 
+Version:  15 march 2014
+----------------------------------------------- */
+.sure{
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 45px;
+}	
+	.sure__text{
+		float: left;
+		width: 460px;
+		font: 16px 'asapregular';
+		color: #3b414e;
+		margin: 65px 0 0 120px;
+	}	
+	.sure__text	h3{
+			font: 24px 'montserratbold';
+			color: #3b414e;
+			margin-bottom: 20px;
+		}
+	.sure__pic{
+		float: right;
+		width: 361px;
+		height: 173px;
+		margin: 65px 120px 0 0;
+	}
+.nav{
+	width: 100%;
+	height: 243px;
+	background: #5387a0;
+	overflow: hidden;
+}
+	.nav-up{
+		width: 1140px;
+		height: 110px;
+		margin: 10px 0 0 40px;		
+	}
+	.nav__ln{
+		width: 1100px;
+		border-bottom: 1px solid #fff; 
+		margin-left: 40px;
+	}
+	.nav-down{
+		width: 1140px;
+		height: 110px;
+		margin: 0 0 0 40px;
+	}
+		.nav ul{
+			float: left;
+			margin-left: 25px;			
+		}
+			.nav li{
+				float: left;
+				list-style: none;
+				width: 140px;
+				height: 110px;
+				text-align: center;
+				margin: 0 40px 0 0;
+			}
+				.nav__pic{
+					width: 50px;
+					height: 44px;
+					margin: 20px 0 10px 45px;
+				}
+					.nav__pic img{
+						margin: auto;
+					}
+				.nav li a{
+					text-decoration: none;
+					color: #f0f0ef;
+					font: 14px 'asapregular';
+				}
+.video{
+	width: 100%;
+	height: 740px;
+	background: #f0f0ef;
+	overflow: hidden;
+}
+	.video-in{
+		width: 741px;
+		height: 100%;
+		margin: auto;
+		overflow: hidden;
+	}
+		.video h3{
+			font: 24px 'montserratbold';
+			color: #3b414e;
+			margin: 50px 0 50px 10px;
+			text-align: center;
+			width: 720px;
+		}
+		.youtube{
+			width: 741px;
+			height: 417px;
+			margin-bottom: 50px;
+		}
+		.video-in__text{
+			font: 16px 'asapregular';
+			color: #3b414e;
+			text-align: center;
+			width: 720px;
+			margin-left: 10px;
+		}
+.order{
+	width: 100%;
+	overflow: hidden;
+}	
+	.order-in{
+		width: 1027px;
+		height: 100%;
+		margin: auto;
+		overflow: hidden;
+	}
+		.order h3{
+			font: 24px 'montserratbold';
+			color: #3b414e;
+			margin: 60px 0 80px 160px;
+			text-align: center;
+			width: 720px;
+		}
+		.background{
+			width: 1027px;
+			height: 655px;
+			margin-bottom: 40px;
+		}
+		.in ul, .inp ul{
+			font: 14px 'asapregular';
+			color: #3b414e;
+			margin: 0 0 70px 30px;
+			width: 960px;
+			overflow: hidden;
+			text-align: center;
+		}
+		.inp ul{
+			margin:  95px 0 100px 100px;
+		}
+		.asapbold14{
+			font: 14px 'asapbold';
+		}
+		.inp-pic{
+			width: 151px;
+			height: 94px;
+			margin: 0 0 28px 38px;
+		}
+			.in li, .inp li{
+				float: left;				
+				list-style: none;
+				width: 240px;
+			}
+				.in li h3, .inp li h3{
+					font: 24px 'montserratbold';
+					color: #3b414e;
+					margin: 0px 0 10px 0px;
+					width: 240px;   
+				}
+			.in li:first-child, .inp li:first-child{
+				margin-right: 120px;
+			}
+			.in li:last-child, .inp li:last-child{
+				float: right;				
+			}	
+.scrin{
+	width: 100%;
+	background: #f0f0ef;
+	overflow: hidden;
+	padding: 125px 0 70px 0;
+}
+	.scrin-in{
+		width: 100%;
+		overflow: hidden;
+		margin-bottom: 50px;
+	}
+		.l-pic{
+			float: left;
+			margin: 0 0 0 100px;
+		}
+		.l-text, .r-text{
+			float: right;
+			width: 500px;
+			margin: 80px 100px 0 0;
+			font: 14px 'asapregular';
+			color: #3b414e;
+		}
+			.scrin-in h3{
+				font: 24px 'montserratbold';
+				color: #3b414e;
+				margin-bottom: 20px;
+			}
+		.r-pic{
+			float: right;
+			margin: 0 100px 0 0;
+		}
+		.r-text{
+			float: left;
+			margin: 80px 0 0 100px;
+		}
+.impres{
+	width: 100%;
+	height: 100px;
+	background: #3b414e;
+	overflow: hidden;
+}
+	.impres_l{
+		width: 340px;
+		float: left;
+		margin-left: 240px;
+	}
+		.impres_l h3{
+			font: 24px 'montserratbold';
+			color: #fff;
+			margin-top: 20px;
+		}
+		.impres_asap16{
+			margin-top: 5px;
+			font: 16px 'asapregular';
+			color: #fff;
+		}
+	.impres_r{
+		width: 340px;
+		height: 45px;
+		float: right;
+		margin: 28px 240px 0 0;
+		background: #d65237;
+		box-shadow: 0 1px 2px rgba(165,63,36,1);
+		border-radius: 2px;		
+	}
+		.impres_r h3{
+			font: 24px 'montserratbold';
+			color: #fff;
+			margin: 10px 0 0 65px;
+			text-shadow: 1px 2px 1px #b34630;
+		}
+
+		
+
+
